@@ -1,0 +1,177 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #7d9e79;
+    scroll-behavior: smooth;
+}
+
+.logo{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logo span{
+    color: #497444;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.hero ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+.hero ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+
+    transition: all 2s;
+}
+
+.hero ul li a:after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    display: block;
+    color: transparent;
+    background: white;
+    transition: transform 0.25s ease-out;
+}
+
+.hero ul li a:hover:after{
+    transform-origin: bottom left;
+    width: 100%;
+    background: white;
+    height: 1px;
+}
+
+.content{
+    justify-content: center;
+    align-items: center;
+    padding: 7% 15%;
+}
+
+.content h1{
+    font-size: 70px;
+    color: #fff;
+}
+
+.content h5{
+    padding-top: 15px;
+    padding-bottom: 90px;
+    font-size: 18px;
+    color: #fff;
+}
+
+
+.content .btn,
+.section .btn{
+    border: 2px solid #497444;
+    background-color: #497444;
+    border-radius: 15px;
+    outline: none;
+    padding: 15px;
+    margin-top: 100px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.content .btn:hover,
+.section .btn:hover{
+    background-color: transparent;
+    border-color: #ddd;
+    color: #315c2c;
+}
+
+.section{
+    justify-content: center;
+    align-items: center; 
+    padding: 0 15%;
+}
+
+.section h1{
+    font-size: 50px;
+    color: #fff;
+    padding-top: 10%;
+}
+
+.section h5{
+    font-size: 18px;
+    color: #fff;
+    padding-top: 30px;
+}
+
+.section .contact{
+    text-align: center;
+
+}
+
+.section ul h3{
+    font-size: 18px;
+    color: #fff;
+    padding-top: 20px;
+
+}
+
+.section ul li{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    position: relative;
+
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15%;
+}
+
+.social ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+.social ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+
+    transition: all 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
